@@ -1,0 +1,17 @@
+.Equipment {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border: 2px solid var(--blue-light);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.Equipment h2 {
+  color: var(--blue-dark);
+  margin-top: 0;
+}
+
+.Equipment ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}

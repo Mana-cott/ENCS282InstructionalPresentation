@@ -1,0 +1,13 @@
+.Introduction {
+  background: linear-gradient(135deg, var(--blue-light), var(--blue-medium));
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 79, 225, 0.1);
+}
+
+.Introduction h2 {
+  margin-top: 0;
+  color: var(--white);
+}

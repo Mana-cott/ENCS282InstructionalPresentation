@@ -1,0 +1,89 @@
+.Steps {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border: 2px solid var(--blue-light);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.Steps h2 {
+  color: var(--blue-dark);
+  margin-top: 0;
+}
+
+.Steps h3, .Steps h4 {
+  color: var(--blue-medium);
+  margin-top: 1.5rem;
+}
+
+.Steps ol {
+  padding-left: 1.5rem;
+}
+
+.Steps p {
+  margin-bottom: 0.5rem;
+}
+
+.caution {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #ffeaea;
+  color: #c30000;
+  border-left: 5px solid #c30000;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.reset-choice {
+  margin-top: 1rem;
+}
+
+.reset-choice button {
+  background-color: #03c1f4;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.reset-choice button:hover {
+  background-color: #08a1f7;
+}
+
+.reset-choice button.active {
+  background-color: #004fe1;
+}
+
+.step-detail {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #03c1f4;
+  background-color: #f0faff;
+  border-radius: 0.5rem;
+}
+
+.step-image {
+  max-width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.step-image img {
+  width: 100%;
+  height: auto;
+  border: 3px solid var(--blue-light);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(3, 193, 244, 0.2);
+}
+
+.step-image figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+  font-style: italic;
+}
